@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export default function BoxWithStyledComponents({ $isBlack }) {
-  return <StyledBox $isBlack={$isBlack}></StyledBox>;
-}
+// export default function BoxWithStyledComponents({ $isBlack }) {
+//   return <StyledBox $isBlack={$isBlack}></StyledBox>;
+// }
 
 const StyledBox = styled.div`
   width: 100px;
@@ -14,3 +14,5 @@ const StyledBox = styled.div`
     background-color: red;
   }
 `;
+
+export default StyledBox;
